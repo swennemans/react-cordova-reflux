@@ -24,7 +24,10 @@ module.exports.development = {
             {test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' }
         ]
     },
-    plugins: [new webpack.HotModuleReplacementPlugin()]
+    plugins: [
+        new webpack.HotModuleReplacementPlugin(),
+        new webpack.NoErrorsPlugin()
+    ]
 
 };
 

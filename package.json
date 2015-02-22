@@ -14,7 +14,7 @@
   ],
   "main": "index.html",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp run"
   },
   "author": "Sven ",
   "license": "MIT",
